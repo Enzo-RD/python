@@ -14,9 +14,9 @@ class Pokemon:
     def setataque(self, ataque):
         self.ataque.append(ataque)
     def atacar(self, i):
-        print(f"{self.nombre} ataco con {self.ataque[i]}")
+        return(f"{self.nombre} ataco con {self.ataque[i]}")
     def defenderse(self):
-        print(f"{self.nombre} se deefendio")
+        return(f"{self.nombre} se deefendio")
     
 
 if __name__ == "__main__":
